@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import {
     MainWrapper,
     Button,
@@ -13,18 +13,22 @@ const Main = () => {
 
     const increaseCount = () => {
         //TODO it should increment the count after 1 second
+        setTimeout(() => setCount(count + 1), 1000);
     };
 
     const decreaseCount = () => {
         //TODO it should decrement the count after 1 second
+        setTimeout(() => setCount(count - 1), 1000);
     };
 
     const addItem = () => {
         //TODO it should add a new random number to the items
+        setItems(prevState => [...prevState, Math.round(Math.random() * 100)])
     };
 
     const removeItem = () => {
         //TODO it should remove the last item
+        setItems(prevState => [...prevState.slice(0, items.length - 1)])
     };
 
     return (
