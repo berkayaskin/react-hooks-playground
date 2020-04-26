@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2447d106-ab09-4969-ab5c-cdc0832a9d61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="EX1_useState_basic" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1b3pgplvb2ZFLtSQiCezpmhOmzi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2447d106-ab09-4969-ab5c-cdc0832a9d61" name="Default Changelist" comment="" />
+      <created>1587870745189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587870745189</updated>
+      <workItem from="1587870747163" duration="3552000" />
+      <workItem from="1587874488773" duration="1000" />
+      <workItem from="1587874552493" duration="213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="602" y="306" key="#Notifications" timestamp="1587874288313">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="602" y="306" key="#Notifications/0.23.1440.826@0.23.1440.826" timestamp="1587874288312" />
+    <state width="1419" height="266" key="GridCell.Tab.0.bottom" timestamp="1587874438168">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1419" height="266" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1587874438168" />
+    <state width="1419" height="266" key="GridCell.Tab.0.center" timestamp="1587874438168">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1419" height="266" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1587874438168" />
+    <state width="1419" height="266" key="GridCell.Tab.0.left" timestamp="1587874438168">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1419" height="266" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1587874438168" />
+    <state width="1419" height="266" key="GridCell.Tab.0.right" timestamp="1587874438168">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1419" height="266" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1587874438168" />
+    <state x="403" y="145" key="RollbackChangesDialog" timestamp="1587871149092">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="403" y="145" key="RollbackChangesDialog/0.23.1440.826@0.23.1440.826" timestamp="1587871149092" />
+    <state x="221" y="75" key="SettingsEditor" timestamp="1587874333554">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="221" y="75" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1587874333554" />
+  </component>
+</project>
