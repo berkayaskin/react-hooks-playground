@@ -1,15 +1,22 @@
-import React, { Component } from 'react';
-import { MainWrapper } from './Main.style';
+import React, {useEffect, useState} from 'react';
+import {MainWrapper} from './Main.style';
 
-class Main extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            width: window.innerWidth
-        };
-    }
+function Main() {
+    const [width, setWidth] = useState(window.innerWidth);
 
-    componentDidMount() {
+    useEffect(() => {
+        const handleResize = () => setWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize)
+    }, []);
+
+    useEffect(() => {
+        document.title = width < 600 ? "It's too small!" : "It's ok";
+        return () => (document.title = '');
+    }, [width]);
+
+
+    /*componentDidMount() {
         window.addEventListener('resize', this.handleResize);
         document.title = this.getTitle();
     }
@@ -23,20 +30,14 @@ class Main extends Component {
     componentWillUnmount() {
         window.removeEventListener('resize', this.handleResize);
         document.title = '';
-    }
+    }*/
 
-    handleResize = () => this.setState({ width: window.innerWidth });
-
-    getTitle = () => (this.state.width < 300 ? "It's too small!" : "It's ok");
-
-    render() {
-        return (
-            <MainWrapper>
-                <h2>EX5_useEffect_intermediate</h2>
-                <p>{`the width is: ${this.state.width}`}</p>
-            </MainWrapper>
-        );
-    }
+    return (
+        <MainWrapper>
+            <h2>EX5_useEffect_intermediate</h2>
+            <p>{`the width is: ${width}`}</p>
+        </MainWrapper>
+    );
 }
 
 export default Main;
